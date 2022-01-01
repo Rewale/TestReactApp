@@ -5,6 +5,8 @@ import Loader from "./loader";
 
 const AddTodo = React.lazy(() => import('./Todo/AddTodo'))
 
+const x = 0;
+
 function App(){
     const [todos, setTodos] = React.useState([
 
